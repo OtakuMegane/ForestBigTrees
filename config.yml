@@ -1,0 +1,19 @@
+# Add the worlds where you want forests to have big trees and set their parameters
+# If you want to disable a world later you can just change 'enabled' to false
+#
+# All parameters are optional except for 'enabled'
+# Available parameters:
+# enabled - set true for big trees to generate in forests
+# big-tree-percentage - this sets the percentage of trees that will be big ones; MC historically was 10%. Default is 10
+# big-tree-fix - a fix to keep foliage from growing too large and immediately decaying. Default is false
+# Example config set up:
+#
+# worlds:
+#   world1:
+#     enabled: false
+#   world2:
+#     enabled: true
+#     big-tree-percentage: 15
+#     big-tree-fix: true
+
+worlds:
