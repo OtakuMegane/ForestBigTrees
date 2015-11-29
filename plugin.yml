@@ -1,6 +1,6 @@
 name: ForestBigTrees
 main: com.minefit.XerxesTireIron.ForestBigTrees.ForestBigTrees
-version: 1.0
+version: 1.0.1
 website: http://www.minefit.com
 author: XerxesTireIron
 description: Alter biome generation to include big trees in Forest and Forest Hills again.

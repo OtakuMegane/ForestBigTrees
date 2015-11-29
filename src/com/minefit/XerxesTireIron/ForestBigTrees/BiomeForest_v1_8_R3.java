@@ -21,8 +21,8 @@ public class BiomeForest_v1_8_R3 extends BiomeForest
         super(i, j);
         plugin = instance;
         this.world = world;
-        bigTree = new WorldGenBigTree_v1_8_R3(false, plugin.getConfig().getBoolean("worlds." + world.getName() + ".big-tree-fix"));
-        bigTreeRandom = plugin.getConfig().getInt("worlds." + world.getName() + ".big-tree-percentage");
+        bigTree = new WorldGenBigTree_v1_8_R3(false, plugin.getConfig().getBoolean("worlds." + world.getName() + ".big-tree-fix", false));
+        bigTreeRandom = plugin.getConfig().getInt("worlds." + world.getName() + ".big-tree-percentage", 10);
         aG = j;
     }
 
